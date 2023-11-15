@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="bootstrap-homework">
+    <meta name="description" content=" bootstrap-homework · profile-layout">
+    <meta property="og:site_name" content="bootstrap-homework"/>
+    <meta property="fb:app_id" content="APP ID" />       <!--seo-->
+    <meta property="og:title" content="bootstrap-homework">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <meta property="og:description" content="bootstrap-homework">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="image/icon.png">
+    <title>Bootstrap profile 作業</title>
+    <link rel="stylesheet" href="stylesheet/all.css">
+<style>
+  
+</style> <!--https://unsplash.com/@ullashinami-->
+</head>
+<body> <!--#fc9400 primary橘色--> <!--#036a61 info綠色-->
+
+    <header class="min-vh-100 position-relative">
+        <div class="deco-box position-absolute top-0 start-0"></div> <!--左上-->
+        <div class="deco-box position-absolute bottom-0 end-0"></div><!--右下-->
+        <div class="bg-cover bg-attachment-fixed position-absolute" style="top:30px; left: 30px; right:30px; bottom:30px; background-image: url(image/bg.jpg); "></div> <!--主圖-->
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+            <h1 class="display-1 fw-bold">陳 六角</h1>
+            <hr class="mb-1 mx-n5">
+            <h2>Hex Chen's Profile</h2> 
+            <p class="fw-light">Bootstrap Profile Layout<br>Sit amet consectetue oiusto vero!</p>
+            <div class="sns"> <!--社群連結icon-->
+                <ul class="list-unstyled d-flex flex-row justify-content-center align-items-center mb-0">
+                    <li class="p-2 h4"><a herf="#" class="link-effect"><i class="bi bi-github"></i></a></li> 
+                    <li class="p-2 h4"><a herf="#" class="link-effect"><i class="bi bi-behance"></i></a></li>
+                    <li class="p-2 h4"><a herf="#" class="link-effect"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container py-5">
+        <div class="row gy-3 justify-content-center flex-md-row-reverse"> <!--自我介紹區-->
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1597011769896-d355e2afcbab?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-100 object-fit-cover" height="500" alt="自我介紹照片">
+            </div>
+
+            <div class="col-md-5 d-flex align-items-center">
+                <div>
+                    <h2 class="display-4 fw-bold text-center text-md-start text-primary mb-3">我的冒險故事</h2> 
+                    <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quibusdam totam fugiat officiis? Molestias aperiam, placeat quibusdam recusandae eos minima vel qui ut iure repellat similique nihil fuga soluta neque.</p>
+                    <a href="#" class="btn btn-outline-info w-100 mt-4 p-2">看更多故事... <i class="bi bi-chevron-right"></i></a>
+                </div>  
+            </div>      
+        </div>
+    </div>
+
+
+    <div class="bg-light p-md-5 py-4 m-md-5"> <!--卡片-->
+        <div class="container">
+            <h2 class="display-4 text-center text-info fw-bold mb-5">我的實戰作品</h2>
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+
+                <div class="col">
+                    <div class="card text-white border-5 rounded-4 overflow-hidden h-100">
+                        <img src="https://images.unsplash.com/photo-1567225557594-88d73e55f2cb?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img h-100 object-fit-cover" alt="卡片01">
+                        <div class="card-img-overlay top-auto bg-dark-gradient">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-outline-light stretched-link w-100 ">看作品 <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white border-5 rounded-4 overflow-hidden h-100">
+                        <img src="https://images.unsplash.com/photo-1556020685-ae41abfc9365?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img h-100 object-fit-cover" alt="卡片02">
+                        <div class="card-img-overlay top-auto bg-dark-gradient">
+                          <h5 class="card-title text-white">Card title</h5>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-outline-light stretched-link w-100 ">看作品 <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white border-5 rounded-4 overflow-hidden h-100">
+                        <img src="https://images.unsplash.com/photo-1562663474-6cbb3eaa4d14?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img h-100 object-fit-cover" width="300" alt="卡片03">
+                        <div class="card-img-overlay top-auto bg-dark-gradient">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-outline-light stretched-link w-100 ">看作品 <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-info p-5 text-white">
+        <div class="container">
+            <h2 class="display-4 text-center text-white fw-bold mb-5">聯絡我</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <p>遇見到世界上另一個地方的您相當開心</p>
+                    <h3 class="h4">聯絡方式</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:sample@mail.com" class="link-effect">
+                            <i class="bi bi-envelope"></i>&nbsp; sample@mail.com</a>
+                        </li>
+                        <li><a href="tel:+886-993-389-471" class="link-effect">
+                            <i class="bi bi-telephone"></i>&nbsp;+886-993-389-471</a>
+                        </li>
+                    </ul>
+
+                    <h3 class="h4 mt-5">社群關注</h3>
+                    <ul class="list-unstyled">
+                        <li><a herf="#" class="link-effect"><i class="bi bi-github"></i>&nbsp; sample</a></li> 
+                        <li><a herf="#" class="link-effect"><i class="bi bi-behance"></i>&nbsp; sample</a></li>
+                        <li><a herf="#" class="link-effect"><i class="bi bi-instagram"></i>&nbsp; sample</a></li>
+                    </ul>
+                    <p>© 2023 by 陳六角 created with Bootstrap 5</p>
+                </div>
+
+                <div class="col-md-5">
+                    <form class="row g-2  needs-validation" novalidate>
+                        <div class="col-md-6">
+                            <label for="validationCustom01" class="form-label">姓 *</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Mark" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                此欄必填
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom02" class="form-label">名 *</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Otto" required>
+                            <div class="valid-feedback">
+                                Good!
+                            </div>
+                            <div class="invalid-feedback">
+                                此欄必填
+                            </div>
+                        </div>
+                        <div class="col-12">
+                          <label for="inputEmail" class="form-label">Email *</label>
+                          <input type="mail" class="form-control" id="inputEmail" placeholder="sample@mail.com" required>
+                          <div class="valid-feedback">
+                            Good!
+                          </div>
+                          <div class="invalid-feedback">
+                            此欄必填
+                          </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                          <label for="validationCustom03" class="form-label">留些訊息給我吧 *</label>
+                          <textarea class="form-control" id="validationCustom03" rows="3" required></textarea>
+                          <div class="valid-feedback">
+                            Good!
+                          </div>
+                          <div class="invalid-feedback">
+                            請留訊息給我QQ
+                          </div>
+                        </div>
+                        <div class="col-12 text-end">
+                          <button type="submit" class="btn btn-outline-light">送出表單</button>
+                        </div>
+                      </form>
+                    </div>
+                
+            </div>
+        </div>
+    </footer>
+ 
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+            })
+        })()
+    </script>
+    
+</body>
+</html>
