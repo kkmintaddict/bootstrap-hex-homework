@@ -1,0 +1,14 @@
+a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: $primary;
+    transition: all 0.2s;
+}
+.link-effect{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
